@@ -43,5 +43,5 @@ $ npm install && npm test
 
 ### License
 
-Copyright © 2026, [Luk Cho ning](https://github.com/xyx650).
+Copyright © 2026, [Cho ning Luk](https://github.com/xyx650).
 Released under the [MIT License](LICENSE).

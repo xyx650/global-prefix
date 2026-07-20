@@ -1,7 +1,7 @@
 /*!
- * global-prefix <https://github.com/jonschlinkert/global-prefix>
+ * global-prefix <https://github.com/xyx650/global-prefix>
  *
- * Copyright (c) 2015 Jon Schlinkert.
+ * Copyright (c) 2026 Cho ning Luk.
  * Licensed under the MIT license.
  */
 
@@ -16,7 +16,7 @@ const prefix = require('./');
 describe('prefix', () => {
   it('should resolve the path to the windows global prefix', () => {
     if (process.platform === 'win32') {
-      assert.equal(prefix, process.env.APPDATA ? path.join(process.env.APPDATA, 'npm') : path.dirname(process.execPath));
+      assert.equal(prefix, path.dirname(process.execPath) || path.join(process.env.APPDATA, 'npm'));
     }
   });
 

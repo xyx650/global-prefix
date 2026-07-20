@@ -1,10 +1,11 @@
 {
   "name": "global-prefix",
   "description": "Get the npm global path prefix.",
-  "version": "4.0.0",
-  "homepage": "https://github.com/jonschlinkert/global-prefix",
-  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "version": "1.0.0",
+  "homepage": "https://github.com/xyx650/global-prefix",
+  "author": "Jon Schlinkert (https://github.com/xyx650)",
   "contributors": [
+    "Cho ning Luk (https://github.com/xyx650)",
     "Alexandr Bogachev (https://github.com/rmbaad)",
     "Brian Woodward (https://twitter.com/doowb)",
     "Charlike Mike Reagent (https://i.am.charlike.online)",
@@ -14,9 +15,9 @@
     "Mathias Rasmussen (chrome://dino)",
     "Ross Fenning (http://rossfenning.co.uk)"
   ],
-  "repository": "jonschlinkert/global-prefix",
+  "repository": "xyx650/global-prefix",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/global-prefix/issues"
+    "url": "https://github.com/xyx650/global-prefix/issues"
   },
   "license": "MIT",
   "files": [

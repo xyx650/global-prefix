@@ -1,7 +1,7 @@
 /*!
- * global-prefix <https://github.com/jonschlinkert/global-prefix>
+ * global-prefix <https://github.com/xyx650/global-prefix>
  *
- * Copyright (c) 2015-present Jon Schlinkert.
+ * Copyright (c) 2015-present Cho ning Luk.
  * Licensed under the MIT license.
  */
 
@@ -46,7 +46,7 @@ const getPrefix = () => {
 
     // c:\node\node.exe --> prefix=c:\node\
     if (process.platform === 'win32' || OSTYPE === 'msys' || OSTYPE === 'cygwin') {
-      prefix = APPDATA ? path.join(APPDATA, 'npm') : path.dirname(process.execPath);
+      prefix = path.dirname(process.execPath) || path.join(APPDATA, 'npm');
       return prefix;
     }
 
